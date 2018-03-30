@@ -1,0 +1,16 @@
+{
+    "CN": "example OCSP signer",
+    "key": {
+        "algo": "ecdsa",
+        "size": 256
+    },
+    "names": [
+        {
+            "C": "US",
+            "ST": "CA",
+            "L": "San Francisco",
+	    "O": "Example Certificate Authority",
+	    "OU": "Revocation"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "signing": {
+        "profiles": {
+            "ocsp": {
+                "expiry": "8760h",
+                "usages": [
+                    "signing",
+                    "key encipherment",
+                    "ocsp signing"
+                ]
+            },
+            "www": {
+                "expiry": "8760h",
+                "usages": [
+                    "signing",
+                    "key encipherment",
+                    "server auth"
+                ],
+                "ocsp_url": "http://localhost:8888/"
+            }
+        },
+        "default": {
+            "expiry": "168h",
+            "usages": [
+                "signing",
+                "server auth",
+                "key encipherment"
+            ]
+        }
+    }
+}
